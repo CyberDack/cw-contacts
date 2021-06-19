@@ -26,7 +26,7 @@ function addContact(event) {
   saveContacts()
 
   console.log(contacts)
-
+  toggleAddContactForm()
   drawContacts()
 
   form.reset()
